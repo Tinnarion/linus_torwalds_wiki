@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #1e293b;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background: #0f172a;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: #fbbf24;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+main {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #0f172a;
+    font-size: 28px;
+}
+
+h2 {
+    color: #0f172a;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.date {
+    color: gray;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.quote {
+    background: #f8fafc;
+    border-left: 5px solid #2563eb;
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.quote cite {
+    display: block;
+    color: gray;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 8px;
+}
+
+.figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.figure img {
+    max-width: 400px;
+    width: 100%;
+    border: 3px solid #0f172a;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.figure figcaption {
+    color: gray;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.portrait {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto 20px;
+    border: 3px solid #0f172a;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+dl {
+    margin-bottom: 15px;
+}
+
+dt {
+    font-weight: bold;
+    color: #0f172a;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 0;
+    color: #334155;
+}
+
+dd::before {
+    content: "— ";
+    color: gray;
+}
+
+code {
+    background: #f1f5f9;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    color: #be185d;
+}
+
+kbd {
+    background: #1e293b;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+.card {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #eff6ff;
+    color: #1d4ed8;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer {
+    background: #0f172a;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.footer a {
+    color: #fbbf24;
+    text-decoration: none;
+}
+
+.sources {
+    margin-top: 15px;
+}
+
+.sources img {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    margin: 0 5px;
+}
