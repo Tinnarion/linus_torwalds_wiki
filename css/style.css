@@ -162,3 +162,17 @@ kbd {
     vertical-align: middle;
     margin: 0 5px;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
